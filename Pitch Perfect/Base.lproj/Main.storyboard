@@ -31,6 +31,9 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yuc-tt-0We">
                                 <rect key="frame" x="127" y="419" width="121" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="O5t-Zb-oe8"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -51,7 +54,8 @@
                         <constraints>
                             <constraint firstItem="Yuc-tt-0We" firstAttribute="centerX" secondItem="Ez3-kR-AEP" secondAttribute="centerX" id="A7L-Ms-XcU"/>
                             <constraint firstItem="Ez3-kR-AEP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E39-KQ-Xcy"/>
-                            <constraint firstItem="Ez3-kR-AEP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Gpg-5B-bq1"/>
+                            <constraint firstItem="Ez3-kR-AEP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" priority="750" id="Gpg-5B-bq1"/>
+                            <constraint firstItem="uTc-jd-U3u" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Uhu-34-42c" secondAttribute="bottom" constant="20" id="JiZ-za-vAj"/>
                             <constraint firstItem="Uhu-34-42c" firstAttribute="centerX" secondItem="Yuc-tt-0We" secondAttribute="centerX" id="PeO-70-SI2"/>
                             <constraint firstItem="Uhu-34-42c" firstAttribute="top" secondItem="Yuc-tt-0We" secondAttribute="bottom" constant="8" id="knV-Nr-684"/>
                             <constraint firstItem="Yuc-tt-0We" firstAttribute="top" secondItem="Ez3-kR-AEP" secondAttribute="bottom" constant="8" id="ofm-De-K5n"/>
@@ -67,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1122" y="134"/>
         </scene>
         <!--Play Sounds View Controller-->
         <scene sceneID="k3p-U6-PNT">
@@ -177,7 +181,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KS3-a5-gxw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1926" y="128"/>
+            <point key="canvasLocation" x="2065" y="134"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="whg-c1-2DM">
