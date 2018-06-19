@@ -18,6 +18,12 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         static let AudioSeparatorName = "/"
     }
     
+    // MARK: LabelTexts, use to show status message
+    internal struct LabelTexts {
+        static let RecordingInProgress = "Recording in progress"
+        static let TapToRecord = "Tap to Record..."
+    }
+    
     // MARK: local properties
     var audioRecorder:AVAudioRecorder!
     
@@ -25,12 +31,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     @IBOutlet weak var recordButton: UIButton!
     @IBOutlet weak var stopRecordingButton: UIButton!
     @IBOutlet weak var recordingLabel: UILabel!
-    
-    // MARK: LabelTexts, use to show status message
-    internal struct LabelTexts {
-        static let RecordingInProgress = "Recording in progress"
-        static let TapToRecord = "Tap to Record..."
-    }
     
     // MARK: View did Load - instance method
     override func viewDidLoad() {

@@ -30,11 +30,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="FUd-oJ-phO">
+                                <rect key="frame" x="0.0" y="381" width="375" height="286"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="FUd-oJ-phO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ase-z6-brY"/>
+                            <constraint firstItem="FUd-oJ-phO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Cpq-2D-hy5"/>
                             <constraint firstItem="lp8-sR-oMe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Gwp-n7-ssj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FUd-oJ-phO" secondAttribute="bottom" id="U9I-ED-b1h"/>
                             <constraint firstItem="wyP-Kg-y3c" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VHS-uk-kKr"/>
+                            <constraint firstItem="FUd-oJ-phO" firstAttribute="top" secondItem="lp8-sR-oMe" secondAttribute="bottom" constant="8" id="bHZ-g3-JXJ"/>
                             <constraint firstItem="lp8-sR-oMe" firstAttribute="top" secondItem="wyP-Kg-y3c" secondAttribute="bottom" constant="8" id="bot-2x-MVq"/>
                             <constraint firstItem="wyP-Kg-y3c" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="snv-Ui-cgl"/>
                         </constraints>
@@ -43,7 +50,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="back" width="1024" height="627"/>
+    </resources>
 </document>

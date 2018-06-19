@@ -9,6 +9,8 @@
 import UIKit
 
 extension UIButton {
+    
+    // MARK: draw for change content mode in imageView from all UIButtons
     open override func draw(_ rect: CGRect) {
         super.draw(rect)
         if let imageView = self.imageView {
